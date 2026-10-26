@@ -1,0 +1,67 @@
+{
+ "as_reported": {
+  "changed": [
+   "extension.arm",
+   "extension.note",
+   "extension.requested_speculative_config",
+   "extension.status",
+   "serving.launch_arguments"
+  ],
+  "intended_change": "extension.requested_speculative_config",
+  "confounded": true
+ },
+ "recomputed_original": {
+  "changed": [
+   "extension.arm",
+   "extension.note",
+   "extension.requested_speculative_config",
+   "extension.status",
+   "serving.launch_arguments"
+  ],
+  "intended_change": "extension.requested_speculative_config",
+  "confounded": true
+ },
+ "recomputed_without_our_metadata": {
+  "changed": [
+   "extension.requested_speculative_config",
+   "serving.launch_arguments"
+  ],
+  "intended_change": "extension.requested_speculative_config",
+  "confounded": true
+ },
+ "launch_arguments": {
+  "baseline": [
+   "vllm",
+   "serve",
+   "[redacted]",
+   "--revision",
+   "b968826d9c46dd6066d109eabc6255188de91218",
+   "--served-model-name",
+   "qwen3-8b",
+   "--max-model-len",
+   "4096",
+   "--host",
+   "127.0.0.1",
+   "--port",
+   "8000",
+   "--seed=[redacted]"
+  ],
+  "current": [
+   "vllm",
+   "serve",
+   "[redacted]",
+   "--revision",
+   "b968826d9c46dd6066d109eabc6255188de91218",
+   "--served-model-name",
+   "qwen3-8b",
+   "--max-model-len",
+   "4096",
+   "--host",
+   "127.0.0.1",
+   "--port",
+   "8000",
+   "--seed=[redacted]",
+   "--speculative-config=[redacted]"
+  ]
+ }
+}

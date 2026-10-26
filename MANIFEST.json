@@ -1,0 +1,606 @@
+{
+ "files": [
+  {
+   "path": "A-001-a100/A-OFF/c1/report.json",
+   "sha256": "9d20df007b3aee248d14991f346deb72d0563bdfcfe2e3e65e06841ca16841e8",
+   "bytes": 1459626,
+   "source": "A-001-a100/remote/A-OFF/giraffe_c1/report.json",
+   "source_sha256": "a6ff2f6aeda3ff5ff4dcd7a0b4cac50c4615777b73d05314797afda551fbfba5",
+   "modified": true
+  },
+  {
+   "path": "A-001-a100/A-OFF/c1/report.html",
+   "sha256": "6a9459648faed4ff58cd21638495789cc2d45cb4cd62d8187b5cd1ff6cb6fc7e",
+   "bytes": 610708,
+   "source": "A-001-a100/remote/A-OFF/giraffe_c1/report.html",
+   "source_sha256": "6a9459648faed4ff58cd21638495789cc2d45cb4cd62d8187b5cd1ff6cb6fc7e",
+   "modified": false
+  },
+  {
+   "path": "A-001-a100/A-OFF/c1/giraffe.yaml",
+   "sha256": "2047cb8240479d77f7510dd9c4145bf3610b79a605f31c96d8ba591ba7c4a91f",
+   "bytes": 799,
+   "source": "A-001-a100/remote/A-OFF/giraffe_c1.yaml",
+   "source_sha256": "c70baecfbee259a4c5cd15078c5dfdb803d158ddb53b93a13cb382a57de0f7db",
+   "modified": true
+  },
+  {
+   "path": "A-001-a100/A-OFF/c1/metrics_before.prom",
+   "sha256": "68eda91e2907d5f699a69256539a6caf6542c4dc2150c8c801b29bb597ed8b08",
+   "bytes": 49181,
+   "source": "A-001-a100/remote/A-OFF/metrics_before_c1.prom",
+   "source_sha256": "68eda91e2907d5f699a69256539a6caf6542c4dc2150c8c801b29bb597ed8b08",
+   "modified": false
+  },
+  {
+   "path": "A-001-a100/A-OFF/c1/metrics_after.prom",
+   "sha256": "1083dfcb7d0db6f34c8fca4f1e9dc5ab0870db3030a43ba3d1195321532ad2db",
+   "bytes": 51246,
+   "source": "A-001-a100/remote/A-OFF/metrics_after_c1.prom",
+   "source_sha256": "1083dfcb7d0db6f34c8fca4f1e9dc5ab0870db3030a43ba3d1195321532ad2db",
+   "modified": false
+  },
+  {
+   "path": "A-001-a100/A-OFF/c4/report.json",
+   "sha256": "02cd335a4fe0fe1ae461253350498e9377315374ee41b0dc73e502c26f6a4a34",
+   "bytes": 1419236,
+   "source": "A-001-a100/remote/A-OFF/giraffe_c4/report.json",
+   "source_sha256": "9833d9a87419b3261edd4801e0d448c881e189425ec9d8f2dcefe83fe8107609",
+   "modified": true
+  },
+  {
+   "path": "A-001-a100/A-OFF/c4/report.html",
+   "sha256": "46a5f8c2fd2a75d7d0f166382638c1613f6f24af36c03b05574c50fda0fee6b3",
+   "bytes": 623207,
+   "source": "A-001-a100/remote/A-OFF/giraffe_c4/report.html",
+   "source_sha256": "46a5f8c2fd2a75d7d0f166382638c1613f6f24af36c03b05574c50fda0fee6b3",
+   "modified": false
+  },
+  {
+   "path": "A-001-a100/A-OFF/c4/giraffe.yaml",
+   "sha256": "6bb240eadc686125fe535689b5aed02cbcf0a907f327665f315e03d74563b001",
+   "bytes": 799,
+   "source": "A-001-a100/remote/A-OFF/giraffe_c4.yaml",
+   "source_sha256": "938eaf9bd6303d3a2aa55519e28043f433f87558888b523a5351f8c6a00ae486",
+   "modified": true
+  },
+  {
+   "path": "A-001-a100/A-OFF/c4/metrics_before.prom",
+   "sha256": "b4aec8b6dfca46e6d3cdfdc1a24ca0370fabde9bf9a4a01d75596006054673ab",
+   "bytes": 51245,
+   "source": "A-001-a100/remote/A-OFF/metrics_before_c4.prom",
+   "source_sha256": "b4aec8b6dfca46e6d3cdfdc1a24ca0370fabde9bf9a4a01d75596006054673ab",
+   "modified": false
+  },
+  {
+   "path": "A-001-a100/A-OFF/c4/metrics_after.prom",
+   "sha256": "4176a5a8fdfd22887955e9c72342fd3b78645ce0fe51fc4986df43c0b8c7c6ae",
+   "bytes": 51309,
+   "source": "A-001-a100/remote/A-OFF/metrics_after_c4.prom",
+   "source_sha256": "4176a5a8fdfd22887955e9c72342fd3b78645ce0fe51fc4986df43c0b8c7c6ae",
+   "modified": false
+  },
+  {
+   "path": "A-001-a100/A-OFF/deployment.json",
+   "sha256": "94672eb3553ddfa7fc4ed525fd73b3e2b80815994bdf6c5af3d0bcdaf69592c1",
+   "bytes": 736,
+   "source": "A-001-a100/remote/A-OFF/deployment.json",
+   "source_sha256": "94672eb3553ddfa7fc4ed525fd73b3e2b80815994bdf6c5af3d0bcdaf69592c1",
+   "modified": false
+  },
+  {
+   "path": "A-001-a100/A-OFF/launch_argv.json",
+   "sha256": "471fb0bbe4f2e9fbfba6132609f0984517548fc5a2e4e47ba9d543598df97689",
+   "bytes": 211,
+   "source": "A-001-a100/remote/A-OFF/launch_argv.json",
+   "source_sha256": "471fb0bbe4f2e9fbfba6132609f0984517548fc5a2e4e47ba9d543598df97689",
+   "modified": false
+  },
+  {
+   "path": "A-001-a100/A-OFF/version.json",
+   "sha256": "79f975b88527b962243c43e611a29ca7db07f64470096c762b045e9da561dbde",
+   "bytes": 20,
+   "source": "A-001-a100/remote/A-OFF/version.json",
+   "source_sha256": "79f975b88527b962243c43e611a29ca7db07f64470096c762b045e9da561dbde",
+   "modified": false
+  },
+  {
+   "path": "A-001-a100/A-OFF/engine_spec_lines.txt",
+   "sha256": "4155b83f55628e8001c29493c6a4a24ef5208de7abe2761e9d7fbcc6d83aa145",
+   "bytes": 52,
+   "source": "A-001-a100/remote/A-OFF/server.log",
+   "source_sha256": "c843501b8d472f07268f27948a755bc8b3f786b6e39507935ec1bc88471ce04b",
+   "modified": true
+  },
+  {
+   "path": "A-001-a100/A-FIXED/c1/report.json",
+   "sha256": "828a5d53a7665f02cd1e21e84ae3b8192a62af0bf832aba3eaf7b1ad2704a463",
+   "bytes": 1313693,
+   "source": "A-001-a100/remote/A-FIXED/giraffe_c1/report.json",
+   "source_sha256": "4c15eaf615429199f4259a15b8cbe394db59dc2b34989733bf54aa7135911833",
+   "modified": true
+  },
+  {
+   "path": "A-001-a100/A-FIXED/c1/report.html",
+   "sha256": "d7c992aa00e1b98ea14c0d4aee30410265ff4b39caf95996342547170886d350",
+   "bytes": 616928,
+   "source": "A-001-a100/remote/A-FIXED/giraffe_c1/report.html",
+   "source_sha256": "d7c992aa00e1b98ea14c0d4aee30410265ff4b39caf95996342547170886d350",
+   "modified": false
+  },
+  {
+   "path": "A-001-a100/A-FIXED/c1/giraffe.yaml",
+   "sha256": "2047cb8240479d77f7510dd9c4145bf3610b79a605f31c96d8ba591ba7c4a91f",
+   "bytes": 799,
+   "source": "A-001-a100/remote/A-FIXED/giraffe_c1.yaml",
+   "source_sha256": "c70baecfbee259a4c5cd15078c5dfdb803d158ddb53b93a13cb382a57de0f7db",
+   "modified": true
+  },
+  {
+   "path": "A-001-a100/A-FIXED/c1/metrics_before.prom",
+   "sha256": "231c35bccc6d6c613c26051241d71264a65d9ae9e967b5a330747cd9d37c6036",
+   "bytes": 51487,
+   "source": "A-001-a100/remote/A-FIXED/metrics_before_c1.prom",
+   "source_sha256": "231c35bccc6d6c613c26051241d71264a65d9ae9e967b5a330747cd9d37c6036",
+   "modified": false
+  },
+  {
+   "path": "A-001-a100/A-FIXED/c1/metrics_after.prom",
+   "sha256": "3860389ce110df4a3fedf08ab6cee1d86b4c81013722840f97fc25a7f1340f9f",
+   "bytes": 53560,
+   "source": "A-001-a100/remote/A-FIXED/metrics_after_c1.prom",
+   "source_sha256": "3860389ce110df4a3fedf08ab6cee1d86b4c81013722840f97fc25a7f1340f9f",
+   "modified": false
+  },
+  {
+   "path": "A-001-a100/A-FIXED/c4/report.json",
+   "sha256": "643e1a45a47f4753df6d045b760106654d117c79396d89c969b413e708091973",
+   "bytes": 1275166,
+   "source": "A-001-a100/remote/A-FIXED/giraffe_c4/report.json",
+   "source_sha256": "cb21db6009e766d71367224f23b1d70d872382c3529fed5f24ca725d526f8941",
+   "modified": true
+  },
+  {
+   "path": "A-001-a100/A-FIXED/c4/report.html",
+   "sha256": "9b8404d30efe1bf20ceea5f49c049cc10686a0d658e984429552a662f87af4fc",
+   "bytes": 623078,
+   "source": "A-001-a100/remote/A-FIXED/giraffe_c4/report.html",
+   "source_sha256": "9b8404d30efe1bf20ceea5f49c049cc10686a0d658e984429552a662f87af4fc",
+   "modified": false
+  },
+  {
+   "path": "A-001-a100/A-FIXED/c4/giraffe.yaml",
+   "sha256": "6bb240eadc686125fe535689b5aed02cbcf0a907f327665f315e03d74563b001",
+   "bytes": 799,
+   "source": "A-001-a100/remote/A-FIXED/giraffe_c4.yaml",
+   "source_sha256": "938eaf9bd6303d3a2aa55519e28043f433f87558888b523a5351f8c6a00ae486",
+   "modified": true
+  },
+  {
+   "path": "A-001-a100/A-FIXED/c4/metrics_before.prom",
+   "sha256": "3860389ce110df4a3fedf08ab6cee1d86b4c81013722840f97fc25a7f1340f9f",
+   "bytes": 53560,
+   "source": "A-001-a100/remote/A-FIXED/metrics_before_c4.prom",
+   "source_sha256": "3860389ce110df4a3fedf08ab6cee1d86b4c81013722840f97fc25a7f1340f9f",
+   "modified": false
+  },
+  {
+   "path": "A-001-a100/A-FIXED/c4/metrics_after.prom",
+   "sha256": "68f022615325131ee516305d4dff0ac8867b56ea95f30446b6442e66ae285724",
+   "bytes": 53579,
+   "source": "A-001-a100/remote/A-FIXED/metrics_after_c4.prom",
+   "source_sha256": "68f022615325131ee516305d4dff0ac8867b56ea95f30446b6442e66ae285724",
+   "modified": false
+  },
+  {
+   "path": "A-001-a100/A-FIXED/deployment.json",
+   "sha256": "18f06e40398bb7862a5afc3e086fb6ce29e6e43a19454e6ee9934ed8bc9e8325",
+   "bytes": 1129,
+   "source": "A-001-a100/remote/A-FIXED/deployment.json",
+   "source_sha256": "18f06e40398bb7862a5afc3e086fb6ce29e6e43a19454e6ee9934ed8bc9e8325",
+   "modified": false
+  },
+  {
+   "path": "A-001-a100/A-FIXED/launch_argv.json",
+   "sha256": "c9075f61b48657e9bb1c4b1706f4573df1a6bd71859052b48bb49f85c1df2558",
+   "bytes": 399,
+   "source": "A-001-a100/remote/A-FIXED/launch_argv.json",
+   "source_sha256": "c9075f61b48657e9bb1c4b1706f4573df1a6bd71859052b48bb49f85c1df2558",
+   "modified": false
+  },
+  {
+   "path": "A-001-a100/A-FIXED/version.json",
+   "sha256": "79f975b88527b962243c43e611a29ca7db07f64470096c762b045e9da561dbde",
+   "bytes": 20,
+   "source": "A-001-a100/remote/A-FIXED/version.json",
+   "source_sha256": "79f975b88527b962243c43e611a29ca7db07f64470096c762b045e9da561dbde",
+   "modified": false
+  },
+  {
+   "path": "A-001-a100/A-FIXED/engine_spec_lines.txt",
+   "sha256": "ff17165efc31d3c9bbe0c8610ae71ab44dd952000f3f22da3f9e8317867adeea",
+   "bytes": 4336,
+   "source": "A-001-a100/remote/A-FIXED/server.log",
+   "source_sha256": "b9381fa9ab00e16ca3da089958ac65ee4d57aee4dbc79d521e0c64fd1368d950",
+   "modified": true
+  },
+  {
+   "path": "A-001-a100/env/env_versions.txt",
+   "sha256": "30eafbc1670ec4fdde1ee217ec96140a5defd18bfb25c3b93254787de21d3dd6",
+   "bytes": 61,
+   "source": "A-001-a100/remote/env_versions.txt",
+   "source_sha256": "30eafbc1670ec4fdde1ee217ec96140a5defd18bfb25c3b93254787de21d3dd6",
+   "modified": false
+  },
+  {
+   "path": "A-001-a100/env/env_gpu.csv",
+   "sha256": "20003aedaa8db213a939f470d1465b3361b5f5047797615d2867bb39db6050fc",
+   "bytes": 103,
+   "source": "A-001-a100/remote/env_gpu.csv",
+   "source_sha256": "20003aedaa8db213a939f470d1465b3361b5f5047797615d2867bb39db6050fc",
+   "modified": false
+  },
+  {
+   "path": "A-002-h100/A-OFF/c1/report.json",
+   "sha256": "e74e034c14bab419ce63c78e25590ab489098218d05534d55d3693f72058ff5f",
+   "bytes": 2046788,
+   "source": "A-002-h100/remote/A-OFF/giraffe_c1/report.json",
+   "source_sha256": "7bc1434bc17889fb2b32d6ddfe27b09e729d600c3ed0753ca52acd308ee0bc00",
+   "modified": true
+  },
+  {
+   "path": "A-002-h100/A-OFF/c1/report.html",
+   "sha256": "d87eeef274db566a42f0a689e035a9712d4ee88d2b07f06f5184adfc4c9faa32",
+   "bytes": 954594,
+   "source": "A-002-h100/remote/A-OFF/giraffe_c1/report.html",
+   "source_sha256": "d87eeef274db566a42f0a689e035a9712d4ee88d2b07f06f5184adfc4c9faa32",
+   "modified": false
+  },
+  {
+   "path": "A-002-h100/A-OFF/c1/giraffe.yaml",
+   "sha256": "eaf57002823e9b67f5de21f35b8fdaa04af435fd98b8004d6ed55fe0b4ef7224",
+   "bytes": 918,
+   "source": "A-002-h100/remote/A-OFF/giraffe_c1.yaml",
+   "source_sha256": "1eff94783d154b4ddcd70be1d2cc8d764ba0cf3894a8d988e2ca553a92551f52",
+   "modified": true
+  },
+  {
+   "path": "A-002-h100/A-OFF/c1/metrics_before.prom",
+   "sha256": "713a622685c21bb0cbcf149ab91fdba4b6dda121291665808d74bac2f0425c15",
+   "bytes": 49181,
+   "source": "A-002-h100/remote/A-OFF/metrics_before_c1.prom",
+   "source_sha256": "713a622685c21bb0cbcf149ab91fdba4b6dda121291665808d74bac2f0425c15",
+   "modified": false
+  },
+  {
+   "path": "A-002-h100/A-OFF/c1/metrics_after.prom",
+   "sha256": "6ea35f161887a6c412de7f7949c3914e5b78f812c67edc561ac41482c74049cd",
+   "bytes": 51268,
+   "source": "A-002-h100/remote/A-OFF/metrics_after_c1.prom",
+   "source_sha256": "6ea35f161887a6c412de7f7949c3914e5b78f812c67edc561ac41482c74049cd",
+   "modified": false
+  },
+  {
+   "path": "A-002-h100/A-OFF/c4/report.json",
+   "sha256": "35809a57149f4d08b95589b144e4a9d6e5487917b96c0c43757a435d3052c295",
+   "bytes": 2590097,
+   "source": "A-002-h100/remote/A-OFF/giraffe_c4/report.json",
+   "source_sha256": "0e28914cd8db58071cd9a615c578eca3827cbd83a508045fc78b9bab08488753",
+   "modified": true
+  },
+  {
+   "path": "A-002-h100/A-OFF/c4/report.html",
+   "sha256": "467df78d54b730fc686d379750c84fcfd1a31c753ade33946e7a3d469578c573",
+   "bytes": 1237111,
+   "source": "A-002-h100/remote/A-OFF/giraffe_c4/report.html",
+   "source_sha256": "467df78d54b730fc686d379750c84fcfd1a31c753ade33946e7a3d469578c573",
+   "modified": false
+  },
+  {
+   "path": "A-002-h100/A-OFF/c4/giraffe.yaml",
+   "sha256": "9ee8f2d5c4ffc51a7d7bc4acc236edb5ea994eaee7e3d9e6972bdbb2b0c35bab",
+   "bytes": 918,
+   "source": "A-002-h100/remote/A-OFF/giraffe_c4.yaml",
+   "source_sha256": "a1297ba1f26d685026dbb3a2470abf5078bfd446c73d4f50eafd3a2971e3abec",
+   "modified": true
+  },
+  {
+   "path": "A-002-h100/A-OFF/c4/metrics_before.prom",
+   "sha256": "6ea35f161887a6c412de7f7949c3914e5b78f812c67edc561ac41482c74049cd",
+   "bytes": 51268,
+   "source": "A-002-h100/remote/A-OFF/metrics_before_c4.prom",
+   "source_sha256": "6ea35f161887a6c412de7f7949c3914e5b78f812c67edc561ac41482c74049cd",
+   "modified": false
+  },
+  {
+   "path": "A-002-h100/A-OFF/c4/metrics_after.prom",
+   "sha256": "c3fb72f9cb0592a59be33f3e40abff682a3a91cd7a479166ec61bd7081f13590",
+   "bytes": 51334,
+   "source": "A-002-h100/remote/A-OFF/metrics_after_c4.prom",
+   "source_sha256": "c3fb72f9cb0592a59be33f3e40abff682a3a91cd7a479166ec61bd7081f13590",
+   "modified": false
+  },
+  {
+   "path": "A-002-h100/A-OFF/deployment.json",
+   "sha256": "4f51f391a4618e3634691eaeb8b4a648fe86965ec4144104062f1d5fb5efad57",
+   "bytes": 730,
+   "source": "A-002-h100/remote/A-OFF/deployment.json",
+   "source_sha256": "4f51f391a4618e3634691eaeb8b4a648fe86965ec4144104062f1d5fb5efad57",
+   "modified": false
+  },
+  {
+   "path": "A-002-h100/A-OFF/launch_argv.json",
+   "sha256": "471fb0bbe4f2e9fbfba6132609f0984517548fc5a2e4e47ba9d543598df97689",
+   "bytes": 211,
+   "source": "A-002-h100/remote/A-OFF/launch_argv.json",
+   "source_sha256": "471fb0bbe4f2e9fbfba6132609f0984517548fc5a2e4e47ba9d543598df97689",
+   "modified": false
+  },
+  {
+   "path": "A-002-h100/A-OFF/version.json",
+   "sha256": "79f975b88527b962243c43e611a29ca7db07f64470096c762b045e9da561dbde",
+   "bytes": 20,
+   "source": "A-002-h100/remote/A-OFF/version.json",
+   "source_sha256": "79f975b88527b962243c43e611a29ca7db07f64470096c762b045e9da561dbde",
+   "modified": false
+  },
+  {
+   "path": "A-002-h100/A-OFF/engine_spec_lines.txt",
+   "sha256": "4155b83f55628e8001c29493c6a4a24ef5208de7abe2761e9d7fbcc6d83aa145",
+   "bytes": 52,
+   "source": "A-002-h100/remote/A-OFF/server.log",
+   "source_sha256": "29e41c81f6b0e994d0425c9f793fea1927c28be2adaea86ee7cb5663d3ba18cb",
+   "modified": true
+  },
+  {
+   "path": "A-002-h100/A-FIXED/c1/report.json",
+   "sha256": "beea8d4d34fd63f59044622fa81873e59d53955d7697e239b17b2ec6ec593568",
+   "bytes": 3135516,
+   "source": "A-002-h100/remote/A-FIXED/giraffe_c1/report.json",
+   "source_sha256": "267ebd93cc61d7016217fa1918335cdbcf51ff4b24fd4f92e535037fa8371dcc",
+   "modified": true
+  },
+  {
+   "path": "A-002-h100/A-FIXED/c1/report.html",
+   "sha256": "dd383aa3c75c0a1cfa80e4f40abb9065b41f86a8147b1a02894e563bf89274a3",
+   "bytes": 969827,
+   "source": "A-002-h100/remote/A-FIXED/giraffe_c1/report.html",
+   "source_sha256": "dd383aa3c75c0a1cfa80e4f40abb9065b41f86a8147b1a02894e563bf89274a3",
+   "modified": false
+  },
+  {
+   "path": "A-002-h100/A-FIXED/c1/giraffe.yaml",
+   "sha256": "766e142f2485e55a1e9a724eb390f691d876a8484b670628d9a35f92dc716706",
+   "bytes": 980,
+   "source": "A-002-h100/remote/A-FIXED/giraffe_c1.yaml",
+   "source_sha256": "2e8accdca04ab80bbbf808ad481e12e96bb3e84d52cee641f359317ee967eb98",
+   "modified": true
+  },
+  {
+   "path": "A-002-h100/A-FIXED/c1/metrics_before.prom",
+   "sha256": "ea4e06d25d0565257e448a92200bf052bb050e2c7242777d77bee4ee159b5e26",
+   "bytes": 51474,
+   "source": "A-002-h100/remote/A-FIXED/metrics_before_c1.prom",
+   "source_sha256": "ea4e06d25d0565257e448a92200bf052bb050e2c7242777d77bee4ee159b5e26",
+   "modified": false
+  },
+  {
+   "path": "A-002-h100/A-FIXED/c1/metrics_after.prom",
+   "sha256": "a37725ffae87d2eb32ae38f1c11b73a654af9133ce1f29faa1618553fd652706",
+   "bytes": 53577,
+   "source": "A-002-h100/remote/A-FIXED/metrics_after_c1.prom",
+   "source_sha256": "a37725ffae87d2eb32ae38f1c11b73a654af9133ce1f29faa1618553fd652706",
+   "modified": false
+  },
+  {
+   "path": "A-002-h100/A-FIXED/c4/report.json",
+   "sha256": "89ac5ba87f20c6556df69d13684cfaf6072b3f27c11697df47d18694420fa68e",
+   "bytes": 2456184,
+   "source": "A-002-h100/remote/A-FIXED/giraffe_c4/report.json",
+   "source_sha256": "2cd6152af6a0225159f93eb399d74fedbb3320fac88824c3000b04964065a1b5",
+   "modified": true
+  },
+  {
+   "path": "A-002-h100/A-FIXED/c4/report.html",
+   "sha256": "29c0ef63e12a5cef06a305b9b53940aada7dc365511b40fb29c72253b9f6e6fb",
+   "bytes": 1237481,
+   "source": "A-002-h100/remote/A-FIXED/giraffe_c4/report.html",
+   "source_sha256": "29c0ef63e12a5cef06a305b9b53940aada7dc365511b40fb29c72253b9f6e6fb",
+   "modified": false
+  },
+  {
+   "path": "A-002-h100/A-FIXED/c4/giraffe.yaml",
+   "sha256": "9ee8f2d5c4ffc51a7d7bc4acc236edb5ea994eaee7e3d9e6972bdbb2b0c35bab",
+   "bytes": 918,
+   "source": "A-002-h100/remote/A-FIXED/giraffe_c4.yaml",
+   "source_sha256": "a1297ba1f26d685026dbb3a2470abf5078bfd446c73d4f50eafd3a2971e3abec",
+   "modified": true
+  },
+  {
+   "path": "A-002-h100/A-FIXED/c4/metrics_before.prom",
+   "sha256": "8c77da3d2cf6551aeec0ea6d4c0b9713534e055e3419111c4ca12d42d9d26871",
+   "bytes": 53590,
+   "source": "A-002-h100/remote/A-FIXED/metrics_before_c4.prom",
+   "source_sha256": "8c77da3d2cf6551aeec0ea6d4c0b9713534e055e3419111c4ca12d42d9d26871",
+   "modified": false
+  },
+  {
+   "path": "A-002-h100/A-FIXED/c4/metrics_after.prom",
+   "sha256": "9f0a369c3d26de24110bfabf4c056facab1baac8be92ab6176a771a12c427b60",
+   "bytes": 53592,
+   "source": "A-002-h100/remote/A-FIXED/metrics_after_c4.prom",
+   "source_sha256": "9f0a369c3d26de24110bfabf4c056facab1baac8be92ab6176a771a12c427b60",
+   "modified": false
+  },
+  {
+   "path": "A-002-h100/A-FIXED/deployment.json",
+   "sha256": "619b87745bb52fbec80533fe6d0cd66445a5d54d07bc1dc12e36a831897dce5f",
+   "bytes": 1123,
+   "source": "A-002-h100/remote/A-FIXED/deployment.json",
+   "source_sha256": "619b87745bb52fbec80533fe6d0cd66445a5d54d07bc1dc12e36a831897dce5f",
+   "modified": false
+  },
+  {
+   "path": "A-002-h100/A-FIXED/launch_argv.json",
+   "sha256": "c9075f61b48657e9bb1c4b1706f4573df1a6bd71859052b48bb49f85c1df2558",
+   "bytes": 399,
+   "source": "A-002-h100/remote/A-FIXED/launch_argv.json",
+   "source_sha256": "c9075f61b48657e9bb1c4b1706f4573df1a6bd71859052b48bb49f85c1df2558",
+   "modified": false
+  },
+  {
+   "path": "A-002-h100/A-FIXED/version.json",
+   "sha256": "79f975b88527b962243c43e611a29ca7db07f64470096c762b045e9da561dbde",
+   "bytes": 20,
+   "source": "A-002-h100/remote/A-FIXED/version.json",
+   "source_sha256": "79f975b88527b962243c43e611a29ca7db07f64470096c762b045e9da561dbde",
+   "modified": false
+  },
+  {
+   "path": "A-002-h100/A-FIXED/engine_spec_lines.txt",
+   "sha256": "a21703d6efd1fdc0e8ae0fc97af549c67412924d707995e3129582ef55f47295",
+   "bytes": 4336,
+   "source": "A-002-h100/remote/A-FIXED/server.log",
+   "source_sha256": "ee05140b3cee9cea5517b76a3c5acdbba71818245c2b1035b4c86904d3a84c6b",
+   "modified": true
+  },
+  {
+   "path": "A-002-h100/env/env_versions.txt",
+   "sha256": "30eafbc1670ec4fdde1ee217ec96140a5defd18bfb25c3b93254787de21d3dd6",
+   "bytes": 61,
+   "source": "A-002-h100/remote/env_versions.txt",
+   "source_sha256": "30eafbc1670ec4fdde1ee217ec96140a5defd18bfb25c3b93254787de21d3dd6",
+   "modified": false
+  },
+  {
+   "path": "A-002-h100/env/env_gpu.csv",
+   "sha256": "827a0a6579982a8e654db5e97d3daddad55280944d8f3258175d6129ea0f2503",
+   "bytes": 98,
+   "source": "A-002-h100/remote/env_gpu.csv",
+   "source_sha256": "827a0a6579982a8e654db5e97d3daddad55280944d8f3258175d6129ea0f2503",
+   "modified": false
+  },
+  {
+   "path": "A-002-h100/reanalysis/recompute_diff.py",
+   "sha256": "daabaf8a6bdd6f86bc25151b396167908c24f75a5d7945aedd11b10a7112e2b8",
+   "bytes": 1824,
+   "source": "A-002-h100/reanalysis/recompute_diff.py",
+   "source_sha256": "daabaf8a6bdd6f86bc25151b396167908c24f75a5d7945aedd11b10a7112e2b8",
+   "modified": false
+  },
+  {
+   "path": "A-002-h100/reanalysis/recompute_diff.json",
+   "sha256": "63d45150f16a274bf6f5c59fae39cb9a1e5c1bcd9d5ec94631241c4a8f9397f5",
+   "bytes": 1374,
+   "source": "A-002-h100/reanalysis/recompute_diff.json",
+   "source_sha256": "63d45150f16a274bf6f5c59fae39cb9a1e5c1bcd9d5ec94631241c4a8f9397f5",
+   "modified": false
+  },
+  {
+   "path": "repro_sd_intended_change/README.md",
+   "sha256": "a8cb1ef69d881f531e5bec097738d885ccf20f8f987ec6225ab36a0242065b4f",
+   "bytes": 1564,
+   "source": "repro_sd_intended_change/README.md",
+   "source_sha256": "a8cb1ef69d881f531e5bec097738d885ccf20f8f987ec6225ab36a0242065b4f",
+   "modified": false
+  },
+  {
+   "path": "repro_sd_intended_change/repro.py",
+   "sha256": "25bfb23c601fabadc5a8dc0edf46f4544817fc7062c2aef8dc2b58fffc0f4dd8",
+   "bytes": 4320,
+   "source": "repro_sd_intended_change/repro.py",
+   "source_sha256": "25bfb23c601fabadc5a8dc0edf46f4544817fc7062c2aef8dc2b58fffc0f4dd8",
+   "modified": false
+  },
+  {
+   "path": "repro_sd_intended_change/repro_result.json",
+   "sha256": "ab430d05d738c9360601ffbf9c8e7c93aca988c9734dd3409662df23e1dcb2a1",
+   "bytes": 1479,
+   "source": "repro_sd_intended_change/repro_result.json",
+   "source_sha256": "ab430d05d738c9360601ffbf9c8e7c93aca988c9734dd3409662df23e1dcb2a1",
+   "modified": false
+  }
+ ],
+ "redactions": [
+  {
+   "path": "A-001-a100/A-OFF/c1/report.json",
+   "change": "run_location.hostname (ephemeral container id) replaced with [redacted] (1 occurrence)"
+  },
+  {
+   "path": "A-001-a100/A-OFF/c1/giraffe.yaml",
+   "change": "first comment line reworded (removed internal plan reference); no setting changed"
+  },
+  {
+   "path": "A-001-a100/A-OFF/c4/report.json",
+   "change": "run_location.hostname (ephemeral container id) replaced with [redacted] (1 occurrence)"
+  },
+  {
+   "path": "A-001-a100/A-OFF/c4/giraffe.yaml",
+   "change": "first comment line reworded (removed internal plan reference); no setting changed"
+  },
+  {
+   "path": "A-001-a100/A-OFF/engine_spec_lines.txt",
+   "change": "excerpt: only lines matching SpeculativeConfig( or 'Eagle3 auxiliary layers'"
+  },
+  {
+   "path": "A-001-a100/A-FIXED/c1/report.json",
+   "change": "run_location.hostname (ephemeral container id) replaced with [redacted] (1 occurrence)"
+  },
+  {
+   "path": "A-001-a100/A-FIXED/c1/giraffe.yaml",
+   "change": "first comment line reworded (removed internal plan reference); no setting changed"
+  },
+  {
+   "path": "A-001-a100/A-FIXED/c4/report.json",
+   "change": "run_location.hostname (ephemeral container id) replaced with [redacted] (1 occurrence)"
+  },
+  {
+   "path": "A-001-a100/A-FIXED/c4/giraffe.yaml",
+   "change": "first comment line reworded (removed internal plan reference); no setting changed"
+  },
+  {
+   "path": "A-001-a100/A-FIXED/engine_spec_lines.txt",
+   "change": "excerpt: only lines matching SpeculativeConfig( or 'Eagle3 auxiliary layers'"
+  },
+  {
+   "path": "A-002-h100/A-OFF/c1/report.json",
+   "change": "run_location.hostname (ephemeral container id) replaced with [redacted] (1 occurrence)"
+  },
+  {
+   "path": "A-002-h100/A-OFF/c1/giraffe.yaml",
+   "change": "first comment line reworded (removed internal plan reference); no setting changed"
+  },
+  {
+   "path": "A-002-h100/A-OFF/c4/report.json",
+   "change": "run_location.hostname (ephemeral container id) replaced with [redacted] (1 occurrence)"
+  },
+  {
+   "path": "A-002-h100/A-OFF/c4/giraffe.yaml",
+   "change": "first comment line reworded (removed internal plan reference); no setting changed"
+  },
+  {
+   "path": "A-002-h100/A-OFF/engine_spec_lines.txt",
+   "change": "excerpt: only lines matching SpeculativeConfig( or 'Eagle3 auxiliary layers'"
+  },
+  {
+   "path": "A-002-h100/A-FIXED/c1/report.json",
+   "change": "run_location.hostname (ephemeral container id) replaced with [redacted] (1 occurrence)"
+  },
+  {
+   "path": "A-002-h100/A-FIXED/c1/giraffe.yaml",
+   "change": "first comment line reworded (removed internal plan reference); no setting changed"
+  },
+  {
+   "path": "A-002-h100/A-FIXED/c4/report.json",
+   "change": "run_location.hostname (ephemeral container id) replaced with [redacted] (1 occurrence)"
+  },
+  {
+   "path": "A-002-h100/A-FIXED/c4/giraffe.yaml",
+   "change": "first comment line reworded (removed internal plan reference); no setting changed"
+  },
+  {
+   "path": "A-002-h100/A-FIXED/engine_spec_lines.txt",
+   "change": "excerpt: only lines matching SpeculativeConfig( or 'Eagle3 auxiliary layers'"
+  }
+ ]
+}

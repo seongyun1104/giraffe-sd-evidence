@@ -1,0 +1,486 @@
+{
+ "A-001-a100/A-OFF/c1": {
+  "overall": "inconclusive",
+  "abort_reason": "maximum request budget reached",
+  "wall_seconds": 77.4,
+  "requests": {
+   "completed": 156,
+   "cancelled": 1,
+   "timeout": 1
+  },
+  "checks": {
+   "access": "pass",
+   "serving": "pass",
+   "first_output": "inconclusive",
+   "generation": "inconclusive",
+   "capacity": "inconclusive",
+   "concurrency": "inconclusive",
+   "context": "pass",
+   "correctness": "pass",
+   "json": "skipped",
+   "cancellation": "pass",
+   "recovery": "inconclusive",
+   "gpu": "inconclusive"
+  },
+  "raw_metrics_delta": {
+   "spec_decode_num_drafts_total": null,
+   "spec_decode_num_draft_tokens_total": null,
+   "spec_decode_num_accepted_tokens_total": null,
+   "generation_tokens_total": 5235.0
+  },
+  "accepted_per_position": null,
+  "report_telemetry_families": [
+   "vllm:kv_cache_usage_perc",
+   "vllm:num_preemptions_total",
+   "vllm:num_requests_running",
+   "vllm:num_requests_waiting",
+   "vllm:prefix_cache_hits_total",
+   "vllm:prefix_cache_queries_total",
+   "vllm:time_to_first_token_seconds_count",
+   "vllm:time_to_first_token_seconds_sum"
+  ],
+  "report_mentions_spec_decode": false
+ },
+ "A-001-a100/A-OFF/c4": {
+  "overall": "inconclusive",
+  "abort_reason": "maximum request budget reached",
+  "wall_seconds": 74.7,
+  "requests": {
+   "completed": 158,
+   "cancelled": 1,
+   "timeout": 1
+  },
+  "checks": {
+   "access": "pass",
+   "serving": "pass",
+   "first_output": "inconclusive",
+   "generation": "inconclusive",
+   "capacity": "inconclusive",
+   "concurrency": "inconclusive",
+   "context": "pass",
+   "correctness": "pass",
+   "json": "skipped",
+   "cancellation": "pass",
+   "recovery": "inconclusive",
+   "gpu": "inconclusive"
+  },
+  "raw_metrics_delta": {
+   "spec_decode_num_drafts_total": null,
+   "spec_decode_num_draft_tokens_total": null,
+   "spec_decode_num_accepted_tokens_total": null,
+   "generation_tokens_total": 5199.0
+  },
+  "accepted_per_position": null,
+  "report_telemetry_families": [
+   "vllm:kv_cache_usage_perc",
+   "vllm:num_preemptions_total",
+   "vllm:num_requests_running",
+   "vllm:num_requests_waiting",
+   "vllm:prefix_cache_hits_total",
+   "vllm:prefix_cache_queries_total",
+   "vllm:time_to_first_token_seconds_count",
+   "vllm:time_to_first_token_seconds_sum"
+  ],
+  "report_mentions_spec_decode": false
+ },
+ "A-001-a100/A-FIXED/c1": {
+  "overall": "inconclusive",
+  "abort_reason": "maximum request budget reached",
+  "wall_seconds": 42.1,
+  "requests": {
+   "completed": 158,
+   "cancelled": 1,
+   "timeout": 1
+  },
+  "checks": {
+   "access": "pass",
+   "serving": "pass",
+   "first_output": "inconclusive",
+   "generation": "inconclusive",
+   "capacity": "inconclusive",
+   "concurrency": "inconclusive",
+   "context": "pass",
+   "correctness": "pass",
+   "json": "skipped",
+   "cancellation": "pass",
+   "recovery": "inconclusive",
+   "gpu": "inconclusive"
+  },
+  "raw_metrics_delta": {
+   "spec_decode_num_drafts_total": 1455.0,
+   "spec_decode_num_draft_tokens_total": 4365.0,
+   "spec_decode_num_accepted_tokens_total": 3811.0,
+   "generation_tokens_total": 5288.0
+  },
+  "accepted_per_position": {
+   "0": 1393.0,
+   "1": 1259.0,
+   "2": 1159.0
+  },
+  "report_telemetry_families": [
+   "vllm:kv_cache_usage_perc",
+   "vllm:num_preemptions_total",
+   "vllm:num_requests_running",
+   "vllm:num_requests_waiting",
+   "vllm:prefix_cache_hits_total",
+   "vllm:prefix_cache_queries_total",
+   "vllm:time_to_first_token_seconds_count",
+   "vllm:time_to_first_token_seconds_sum"
+  ],
+  "report_mentions_spec_decode": false
+ },
+ "A-001-a100/A-FIXED/c4": {
+  "overall": "inconclusive",
+  "abort_reason": "maximum request budget reached",
+  "wall_seconds": 40.7,
+  "requests": {
+   "completed": 158,
+   "cancelled": 1,
+   "timeout": 1
+  },
+  "checks": {
+   "access": "pass",
+   "serving": "pass",
+   "first_output": "inconclusive",
+   "generation": "inconclusive",
+   "capacity": "inconclusive",
+   "concurrency": "inconclusive",
+   "context": "pass",
+   "correctness": "pass",
+   "json": "skipped",
+   "cancellation": "pass",
+   "recovery": "inconclusive",
+   "gpu": "inconclusive"
+  },
+  "raw_metrics_delta": {
+   "spec_decode_num_drafts_total": 1447.0,
+   "spec_decode_num_draft_tokens_total": 4341.0,
+   "spec_decode_num_accepted_tokens_total": 3782.0,
+   "generation_tokens_total": 5212.0
+  },
+  "accepted_per_position": {
+   "0": 1393.0,
+   "1": 1267.0,
+   "2": 1122.0
+  },
+  "report_telemetry_families": [
+   "vllm:kv_cache_usage_perc",
+   "vllm:num_preemptions_total",
+   "vllm:num_requests_running",
+   "vllm:num_requests_waiting",
+   "vllm:prefix_cache_hits_total",
+   "vllm:prefix_cache_queries_total",
+   "vllm:time_to_first_token_seconds_count",
+   "vllm:time_to_first_token_seconds_sum"
+  ],
+  "report_mentions_spec_decode": false
+ },
+ "A-002-h100/A-OFF/c1": {
+  "overall": "inconclusive",
+  "abort_reason": null,
+  "wall_seconds": 61.2,
+  "requests": {
+   "completed": 255,
+   "cancelled": 1,
+   "timeout": 1
+  },
+  "checks": {
+   "access": "pass",
+   "serving": "pass",
+   "first_output": "inconclusive",
+   "generation": "inconclusive",
+   "capacity": "inconclusive",
+   "concurrency": "inconclusive",
+   "context": "pass",
+   "correctness": "pass",
+   "json": "skipped",
+   "cancellation": "pass",
+   "recovery": "inconclusive",
+   "gpu": "inconclusive"
+  },
+  "raw_metrics_delta": {
+   "spec_decode_num_drafts_total": null,
+   "spec_decode_num_draft_tokens_total": null,
+   "spec_decode_num_accepted_tokens_total": null,
+   "generation_tokens_total": 7136.0
+  },
+  "accepted_per_position": null,
+  "report_telemetry_families": [
+   "vllm:kv_cache_usage_perc",
+   "vllm:num_preemptions_total",
+   "vllm:num_requests_running",
+   "vllm:num_requests_waiting",
+   "vllm:prefix_cache_hits_total",
+   "vllm:prefix_cache_queries_total",
+   "vllm:time_to_first_token_seconds_count",
+   "vllm:time_to_first_token_seconds_sum"
+  ],
+  "report_mentions_spec_decode": false
+ },
+ "A-002-h100/A-OFF/c4": {
+  "overall": "inconclusive",
+  "abort_reason": "maximum request budget reached",
+  "wall_seconds": 71.8,
+  "requests": {
+   "completed": 318,
+   "cancelled": 1,
+   "timeout": 1
+  },
+  "checks": {
+   "access": "pass",
+   "serving": "pass",
+   "first_output": "inconclusive",
+   "generation": "inconclusive",
+   "capacity": "inconclusive",
+   "concurrency": "inconclusive",
+   "context": "pass",
+   "correctness": "pass",
+   "json": "skipped",
+   "cancellation": "pass",
+   "recovery": "inconclusive",
+   "gpu": "inconclusive"
+  },
+  "raw_metrics_delta": {
+   "spec_decode_num_drafts_total": null,
+   "spec_decode_num_draft_tokens_total": null,
+   "spec_decode_num_accepted_tokens_total": null,
+   "generation_tokens_total": 12173.0
+  },
+  "accepted_per_position": null,
+  "report_telemetry_families": [
+   "vllm:kv_cache_usage_perc",
+   "vllm:num_preemptions_total",
+   "vllm:num_requests_running",
+   "vllm:num_requests_waiting",
+   "vllm:prefix_cache_hits_total",
+   "vllm:prefix_cache_queries_total",
+   "vllm:time_to_first_token_seconds_count",
+   "vllm:time_to_first_token_seconds_sum"
+  ],
+  "report_mentions_spec_decode": false
+ },
+ "A-002-h100/A-FIXED/c1": {
+  "overall": "fail",
+  "abort_reason": null,
+  "wall_seconds": 36.7,
+  "requests": {
+   "completed": 255,
+   "cancelled": 1,
+   "timeout": 1
+  },
+  "checks": {
+   "access": "pass",
+   "serving": "pass",
+   "first_output": "inconclusive",
+   "generation": "inconclusive",
+   "capacity": "inconclusive",
+   "concurrency": "inconclusive",
+   "context": "pass",
+   "correctness": "pass",
+   "json": "skipped",
+   "cancellation": "pass",
+   "recovery": "inconclusive",
+   "gpu": "inconclusive",
+   "baseline": "fail"
+  },
+  "raw_metrics_delta": {
+   "spec_decode_num_drafts_total": 1996.0,
+   "spec_decode_num_draft_tokens_total": 5988.0,
+   "spec_decode_num_accepted_tokens_total": 5042.0,
+   "generation_tokens_total": 7157.0
+  },
+  "accepted_per_position": {
+   "0": 1934.0,
+   "1": 1604.0,
+   "2": 1504.0
+  },
+  "report_telemetry_families": [
+   "vllm:kv_cache_usage_perc",
+   "vllm:num_preemptions_total",
+   "vllm:num_requests_running",
+   "vllm:num_requests_waiting",
+   "vllm:prefix_cache_hits_total",
+   "vllm:prefix_cache_queries_total",
+   "vllm:time_to_first_token_seconds_count",
+   "vllm:time_to_first_token_seconds_sum"
+  ],
+  "report_mentions_spec_decode": false,
+  "baseline": {
+   "status": "fail",
+   "changed_fields": {
+    "extension.arm": "changed",
+    "extension.note": "removed",
+    "extension.requested_speculative_config": "changed",
+    "extension.status": "added",
+    "serving.launch_arguments": "changed"
+   },
+   "intended_change": "extension.requested_speculative_config",
+   "confounded": true,
+   "comparisons": {
+    "pass": 215,
+    "inconclusive": 115,
+    "fail": 8
+   },
+   "failed": [
+    {
+     "check": "access",
+     "scenario": "generation",
+     "metric": "first_output_ms",
+     "baseline": 12.918100999968374,
+     "current": 15.844957000012982,
+     "worsening": 22.657014371166273,
+     "worsening_interval_95": [
+      20.056188889270512,
+      24.801171240682734
+     ],
+     "baseline_samples": 6,
+     "current_samples": 6
+    },
+    {
+     "check": "access",
+     "scenario": "warm",
+     "metric": "first_output_ms",
+     "baseline": 12.893848000004482,
+     "current": 15.675289499995415,
+     "worsening": 21.571849613784547,
+     "worsening_interval_95": [
+      20.357112263238104,
+      24.279625446369185
+     ],
+     "baseline_samples": 6,
+     "current_samples": 6
+    },
+    {
+     "check": "first_output",
+     "scenario": "generation",
+     "metric": "first_output_ms",
+     "baseline": 12.918100999968374,
+     "current": 15.844957000012982,
+     "worsening": 22.657014371166273,
+     "worsening_interval_95": [
+      20.056188889270512,
+      24.801171240682734
+     ],
+     "baseline_samples": 6,
+     "current_samples": 6
+    },
+    {
+     "check": "first_output",
+     "scenario": "warm",
+     "metric": "first_output_ms",
+     "baseline": 12.893848000004482,
+     "current": 15.675289499995415,
+     "worsening": 21.571849613784547,
+     "worsening_interval_95": [
+      20.357112263238104,
+      24.279625446369185
+     ],
+     "baseline_samples": 6,
+     "current_samples": 6
+    },
+    {
+     "check": "generation",
+     "scenario": "generation",
+     "metric": "first_output_ms",
+     "baseline": 12.918100999968374,
+     "current": 15.844957000012982,
+     "worsening": 22.657014371166273,
+     "worsening_interval_95": [
+      20.056188889270512,
+      24.801171240682734
+     ],
+     "baseline_samples": 6,
+     "current_samples": 6
+    },
+    {
+     "check": "recovery",
+     "scenario": "recovery",
+     "metric": "first_output_ms",
+     "baseline": 12.788928500015118,
+     "current": 15.676455999994232,
+     "worsening": 22.5783379739413,
+     "worsening_interval_95": [
+      20.987296844267707,
+      26.480115007062818
+     ],
+     "baseline_samples": 6,
+     "current_samples": 6
+    },
+    {
+     "check": "serving",
+     "scenario": "generation",
+     "metric": "first_output_ms",
+     "baseline": 12.918100999968374,
+     "current": 15.844957000012982,
+     "worsening": 22.657014371166273,
+     "worsening_interval_95": [
+      20.056188889270512,
+      24.801171240682734
+     ],
+     "baseline_samples": 6,
+     "current_samples": 6
+    },
+    {
+     "check": "serving",
+     "scenario": "warm",
+     "metric": "first_output_ms",
+     "baseline": 12.893848000004482,
+     "current": 15.675289499995415,
+     "worsening": 21.571849613784547,
+     "worsening_interval_95": [
+      20.357112263238104,
+      24.279625446369185
+     ],
+     "baseline_samples": 6,
+     "current_samples": 6
+    }
+   ]
+  }
+ },
+ "A-002-h100/A-FIXED/c4": {
+  "overall": "inconclusive",
+  "abort_reason": "maximum request budget reached",
+  "wall_seconds": 39.6,
+  "requests": {
+   "completed": 318,
+   "cancelled": 1,
+   "timeout": 1
+  },
+  "checks": {
+   "access": "pass",
+   "serving": "pass",
+   "first_output": "inconclusive",
+   "generation": "inconclusive",
+   "capacity": "inconclusive",
+   "concurrency": "inconclusive",
+   "context": "pass",
+   "correctness": "pass",
+   "json": "skipped",
+   "cancellation": "pass",
+   "recovery": "inconclusive",
+   "gpu": "inconclusive"
+  },
+  "raw_metrics_delta": {
+   "spec_decode_num_drafts_total": 3376.0,
+   "spec_decode_num_draft_tokens_total": 10128.0,
+   "spec_decode_num_accepted_tokens_total": 8806.0,
+   "generation_tokens_total": 12194.0
+  },
+  "accepted_per_position": {
+   "0": 3236.0,
+   "1": 2916.0,
+   "2": 2654.0
+  },
+  "report_telemetry_families": [
+   "vllm:kv_cache_usage_perc",
+   "vllm:num_preemptions_total",
+   "vllm:num_requests_running",
+   "vllm:num_requests_waiting",
+   "vllm:prefix_cache_hits_total",
+   "vllm:prefix_cache_queries_total",
+   "vllm:time_to_first_token_seconds_count",
+   "vllm:time_to_first_token_seconds_sum"
+  ],
+  "report_mentions_spec_decode": false
+ }
+}

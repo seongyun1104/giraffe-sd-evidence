@@ -1,0 +1,79 @@
+{
+ "sd_switch_intended_extension": {
+  "aborted": [
+   null,
+   null
+  ],
+  "intended_change": "extension.requested_speculative_config",
+  "changed_fields": [
+   "extension.requested_speculative_config",
+   "serving.launch_arguments"
+  ],
+  "confounded": true,
+  "launch_arguments_current": [
+   "vllm",
+   "serve",
+   "[redacted]",
+   "--max-model-len",
+   "4096",
+   "--port",
+   "8000",
+   "--speculative-config=[redacted]"
+  ]
+ },
+ "sd_switch_intended_launch": {
+  "aborted": [
+   null,
+   null
+  ],
+  "intended_change": "serving.launch_arguments",
+  "changed_fields": [
+   "extension.requested_speculative_config",
+   "serving.launch_arguments"
+  ],
+  "confounded": true,
+  "launch_arguments_current": [
+   "vllm",
+   "serve",
+   "[redacted]",
+   "--max-model-len",
+   "4096",
+   "--port",
+   "8000",
+   "--speculative-config=[redacted]"
+  ]
+ },
+ "control_extension_only": {
+  "aborted": [
+   null,
+   null
+  ],
+  "intended_change": "extension.requested_speculative_config",
+  "changed_fields": [
+   "extension.requested_speculative_config"
+  ],
+  "confounded": false,
+  "launch_arguments_current": null
+ },
+ "control_launch_only": {
+  "aborted": [
+   null,
+   null
+  ],
+  "intended_change": "serving.launch_arguments",
+  "changed_fields": [
+   "serving.launch_arguments"
+  ],
+  "confounded": false,
+  "launch_arguments_current": [
+   "vllm",
+   "serve",
+   "[redacted]",
+   "--max-model-len",
+   "4096",
+   "--port",
+   "8000",
+   "--speculative-config=[redacted]"
+  ]
+ }
+}

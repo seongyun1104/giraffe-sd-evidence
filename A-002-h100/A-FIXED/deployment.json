@@ -1,0 +1,48 @@
+{
+ "model": {
+  "requested": "Qwen/Qwen3-8B",
+  "served": "qwen3-8b",
+  "revision": "b968826d9c46dd6066d109eabc6255188de91218"
+ },
+ "runtime": {
+  "engine": "vllm",
+  "version": "0.30.0",
+  "image": "vllm/vllm-openai:v0.30.0"
+ },
+ "serving": {
+  "context_limit": 4096
+ },
+ "hardware": {
+  "gpu_count": 1,
+  "gpu_model": "NVIDIA H100 NVL"
+ },
+ "launch_command": [
+  "vllm",
+  "serve",
+  "Qwen/Qwen3-8B",
+  "--revision",
+  "b968826d9c46dd6066d109eabc6255188de91218",
+  "--served-model-name",
+  "qwen3-8b",
+  "--max-model-len",
+  "4096",
+  "--host",
+  "127.0.0.1",
+  "--port",
+  "8000",
+  "--seed",
+  "0",
+  "--speculative-config",
+  "{\"model\":\"RedHatAI/Qwen3-8B-speculator.eagle3\",\"revision\":\"08610ffa01dd9f16731fe8f627b85905b6aa51c4\",\"method\":\"eagle3\",\"num_speculative_tokens\":3}"
+ ],
+ "extension": {
+  "arm": "A-FIXED",
+  "requested_speculative_config": {
+   "model": "RedHatAI/Qwen3-8B-speculator.eagle3",
+   "revision": "08610ffa01dd9f16731fe8f627b85905b6aa51c4",
+   "method": "eagle3",
+   "num_speculative_tokens": 3
+  },
+  "status": "unverified until engine logs and spec-decode counters are checked"
+ }
+}

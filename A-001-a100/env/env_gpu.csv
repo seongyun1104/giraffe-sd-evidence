@@ -1,0 +1,2 @@
+name, driver_version, memory.total [MiB], compute_cap
+NVIDIA A100 80GB PCIe, 615.71.09, 81920 MiB, 8.0

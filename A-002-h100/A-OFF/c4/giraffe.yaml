@@ -1,0 +1,31 @@
+# Same file for every arm; only the server changes. max_requests raised 160 -> 320 because every A-001 run stopped at the request cap and Giraffe does not compare aborted runs.
+targets:
+  - name: vllm-h100
+    url: http://127.0.0.1:8000/v1
+    model: qwen3-8b
+    identity: {runtime: vllm}
+    metrics_url: http://127.0.0.1:8000/metrics
+    metrics_profile: vllm-v1
+    metrics_runtime_version: 0.30.0
+    deployment:
+      discovery: vllm
+      scope: single vLLM process on one rented H100 NVL; other replicas none
+concurrency: 4
+max_requests: 320
+max_duration_seconds: 600
+request_timeout_seconds: 120
+max_output_tokens: 128
+context_limit: 4096
+samples: 6
+sustained_seconds: 30
+request_options:
+  temperature: 0
+  chat_template_kwargs: {enable_thinking: false}
+metrics: true
+metrics_interval_seconds: 2
+metrics_max_samples: 1024
+retention: failures
+limits:
+  max_error_rate: 0
+  min_correctness: 1
+  min_samples: 5
